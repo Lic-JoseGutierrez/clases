@@ -1,0 +1,106 @@
+/* etiqueta o tipo */
+* {
+    margin: 0;
+}
+/* header {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+} */
+main { 
+    width: 100%;
+    margin-top: 20px;
+}
+body {
+    background-color: rgb(50, 50, 50);
+    font-family: "Nunito", sans-serif;
+}
+nav {
+    background-color: orangered;
+    width: 100%;
+    /* margin es del borde hacia afuera */
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    text-align: left; 
+}
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    text-align: right;
+}
+nav li {
+    display: inline; /* Hace que los elementos li se muestren en línea */
+    margin-left: 10px; /* Agrega un espacio entre los elementos li */
+}
+section {
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+}
+footer {
+  background-color: orangered;
+  font-size: 20px;
+}
+h1, h2 {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* CLASES cuando varios elementos comparten los atributos */
+.tendencias-image {
+  width:20%;
+  height: 20%;
+}
+
+/* ID cuando los elementos son unicos y no comparten los atributos*/
+#link_logo {
+    color: blue;
+}
+#sector-imagen {
+    
+    height: 500px;
+    /* padding del borde hacia adentro */
+    padding-top: 50px;
+}
+
+/* CLASE 7 */
+ /* uno al lado del otro */
+/* h1, h2 {
+  display: inline;
+} */
+/* cuando me posiciono cambia de color */
+/* h2:hover{
+  color: chartreuse;
+} */
+/* ocupa toda la linea */
+/* a { 
+  display: block;
+} */
+/* ul {
+  display: inline;
+} */
+/* li {
+  display: inline;
+} */
+/* CLASE 7 */
+/* .cambio-inline li {
+  display: inline;
+} */
+/* .cambio-inline li:hover {
+  color: brown;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+} */
+/* CLASE 7 */
+/* #dsiplay3 {
+  display:none;
+} */
+/* accion mientras me sposisiciono sobre el elemento */
+/* #imagenChau:hover {
+  display: none;
+} */
