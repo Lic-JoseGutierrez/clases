@@ -1,0 +1,21 @@
+body {
+  background-color: whitesmoke;
+}
+
+.elemento {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  clip-path: circle(100%);
+  transition-property: clip-path;
+  transition-property: background-color 2s;
+  transition-duration: 2s;
+  transition-duration: 3s;
+}
+
+/* para transiciones */
+.elemento:hover {
+  
+  background-color: black;
+  clip-path: circle(20%);
+}

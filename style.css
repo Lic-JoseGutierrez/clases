@@ -1,6 +1,9 @@
 /* etiqueta o tipo */
 * {
     margin: 0;
+    padding: 0;
+    /* clase9 */
+    box-sizing: border-box;
 }
 /* header {
     background-image: url('banner.jpg');
@@ -106,13 +109,63 @@ a {
 } */
 
 /* clase 8 */
-/* #bordes {
+#bordes1 {
   width: 90px;
   height: 90px;
   margin: 50px;
   padding: 5px;
-  border-width: 1px;
+  border-width: 5px;
   border-style: solid;
   border-color: blue;
   border-radius: 5px;
-} */
+  /* relative para jugar con los movimientos, con static queda fijo */
+  position: relative;
+  left: 120px;
+}
+
+/* clase 9 */
+#bordes2 {
+  width: 90px;
+  height: 90px;
+  margin: 70px;
+  padding: 5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 5px;
+}
+.container {
+  /* width: 800px;
+  height: 400px;
+  background-color: antiquewhite; */
+  /* dsiplay flex para poder mover los objetos dentro del contenedor */
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+}
+.item {
+  width: 90px;
+  height: 90px;
+  background-color: red;
+  display: inline-block;
+
+}
+.item-1 {
+  
+  background-color: purple;
+  
+}
+.item-2 {
+  
+  background-color: green;
+ 
+  
+}
+.item-3 {
+  
+  background-color: black;
+  color: white;
+  
+}
